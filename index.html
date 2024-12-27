@@ -102,26 +102,18 @@
 								<p>Minut saa kiinni puhelimella. Numero on +358 (0)40 5926 175.
 									Jos en vastaa niin lähetä viesti.
 									Työtilani sijaitsevat Pirkanmaalla lähellä Tamperetta.</p>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Nimi</label>
-											<input type="text" name="name" id="name" />
+									<form method="post" action="https://formspree.io/f/mvgoqgyw">
+										<div class="row">
+											<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Nimi" /></div>
+											<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Sähköposti" /></div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Viesti"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Lähetä viesti" />
+											</div>
 										</div>
-										<div class="field half">
-											<label for="email">Sähköpostiosoite</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Viesti</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+									</form>
 								<ul class="icons">
 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
